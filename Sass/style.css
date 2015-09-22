@@ -1,0 +1,35 @@
+body {
+  background: #262626;
+  font-family: helvetica, ariel, sans-serif; }
+
+header {
+  margin: 20px 0 0 25%; }
+  header h1 {
+    color: red; }
+  header h2 {
+    color: #708C87;
+    margin: 10px 30%; }
+
+p {
+  margin: 20px 25%; }
+
+a {
+  color: #708C87; }
+
+.grad {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  border-radius: 50px;
+  padding: 1%;
+  background-color: #e8e5e1; }
+  .grad .intro {
+    background: #333; }
+  .grad .par1 {
+    color: red; }
+    .grad .par1 a {
+      font-size: 50px; }
+      .grad .par1 a:hover {
+        background: #8e8b87; }
+
+/*# sourceMappingURL=style.css.map */

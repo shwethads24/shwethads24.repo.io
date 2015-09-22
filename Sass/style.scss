@@ -1,0 +1,32 @@
+$blue: red;
+$margin: 25%;
+$cream:#F2EFEB;
+
+@mixin border-radius($radius : 20px){
+	 -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+body { background: #262626; font-family:helvetica, ariel, sans-serif;}
+header {margin:20px 0 0 $margin;
+h1 {color: $blue;}
+h2{color: #708C87; margin:10px $margin + 5%;}}
+p {margin:20px $margin;}
+
+a {color: #708C87;}
+
+.grad{
+	@include border-radius(50px);
+	padding:1%;
+	background-color: $cream - 10;
+.intro{background:#333;}
+
+.par1{
+
+	color : $blue;
+	a {font-size: 50px;
+	&:hover{background: $cream - 100;}} 
+	
+	}
+}
